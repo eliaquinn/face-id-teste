@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face ID</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        canvas {
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <video width="520" height="350" id="video" muted></video>
+
+    <script src="./lib/face-api.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
